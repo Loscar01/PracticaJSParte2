@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <ul class="menu-horizontal">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#acerca-de">Acerca de</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+    </ul>
+<h1><Center>Universidad de la cuenca del plata</Center></h1>
+<h1><center>Por favor, identifíquese</center></h1>
+        <form id="login-form" enctype="multipart/form-data">
+            <label for="DNI">D.N.I</label>
+            <input type="number" id="DNI" placeholder="Introduce tu DNI aquí">
+            <label for="contrasena">Contraseña</label>
+            <input type="password" id="contrasena" placeholder="Introduce tu Contraseña">
+            <button type="submit" form="login-form" class="enviarLogin">Enviar</button>
+        </form>
+<div class="registroUser">
+<h2>Es su primera vez? Registrese aqui:</h2>
+<form id="registro-form" enctype="multipart/form-data">
+    <label for="dniRegister">D.N.I</label>
+    <input type="number" id="dniRegister" placeholder="Introduce tu DNI aquí">
+    <label for="contrasenaRegister">Contraseña</label>
+    <input type="password" id="contrasenaRegister" placeholder="Introduce tu Contraseña">
+    <label for="dobleContrasenaRegister">Repite la Contraseña</label>
+    <input type="password" id="dobleContrasenaRegister" placeholder="Introduce tu Contraseña">
+    <button type="submit" form="registro-form" class="enviarRegistro">Enviar</button>
+</form>
+</div>
+
+<div id="muestraInfo"></div>
+<script src="index.js"></script>
+</body>
+</html>

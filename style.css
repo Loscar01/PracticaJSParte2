@@ -1,0 +1,92 @@
+.menu-horizontal {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #f1f1f1;
+            overflow: hidden;
+        }
+        .menu-horizontal li {
+            float: left;
+        }
+        .menu-horizontal li a {
+            display: block;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            color: #333;
+        }
+        .menu-horizontal li a:hover {
+            background-color: #ddd;
+        }
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background: #fdfdfd;
+}
+
+/* Estilos para el formulario */
+#input-form {
+    max-width: 400px; /* Ancho máximo del formulario */
+    margin: 0 auto; /* Centrar el formulario horizontalmente */
+    padding: 20px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde del formulario */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Estilos para las etiquetas */
+label {
+    display: block; /* Mostrar cada etiqueta en una línea nueva */
+    margin-bottom: 5px; /* Espaciado inferior */
+}
+
+/* Estilos para los campos de entrada */
+input[type="number"],
+input[type="email"],
+input[type="text"],
+input[type="password"] {
+    
+    width: calc(100% - 20px); /* Ancho del campo de entrada, menos el espaciado interno */
+    padding: 10px; /* Espaciado interno */
+    margin-bottom: 10px; /* Espaciado inferior */
+    border: 1px solid #ccc; /* Borde del campo de entrada */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Estilos para el botón */
+button {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espaciado interno */
+    background-color: #007bff; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar el cursor al pasar por encima */
+}
+
+button:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el ratón por encima */
+}
+
+.muestraInfo{
+    margin: 0 auto; /* Centrar el div horizontalmente */
+  padding: 20px; /* Espaciado interno */
+  border: 5px solid #ffffff; /* Borde del div */
+  border-radius: 10px; /* Bordes redondeados */
+  background-color: #fff8f8; /* Color de fondo */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  
+}
+
+.muestraInfo h1,h2,h3,p{
+    color: #000000;
+}
+
+.muestraInfo table{
+    width: 100%;
+  border-collapse: collapse;
+}
+.muestraInfo th,td{
+    padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
