@@ -20,7 +20,7 @@
         }
 body{
     font-family: 'Courier New', Courier, monospace;
-    background: #fdfdfd;
+    background: #ffc400;
 }
 
 /* Estilos para el formulario */
@@ -55,7 +55,7 @@ input[type="password"] {
 button {
     width: 100%; /* Ancho completo */
     padding: 10px; /* Espaciado interno */
-    background-color: #007bff; /* Color de fondo */
+    background-color: #ffb400; /* Color de fondo */
     color: #fff; /* Color del texto */
     border: none; /* Sin borde */
     border-radius: 5px; /* Bordes redondeados */
@@ -68,10 +68,11 @@ button:hover {
 
 .muestraInfo{
     margin: 0 auto; /* Centrar el div horizontalmente */
+    margin-bottom: 20px;
   padding: 20px; /* Espaciado interno */
-  border: 5px solid #ffffff; /* Borde del div */
+  border: 5px solid #ffbb00; /* Borde del div */
   border-radius: 10px; /* Bordes redondeados */
-  background-color: #fff8f8; /* Color de fondo */
+  background-color: #ffbb00; /* Color de fondo */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
   
 }
@@ -86,7 +87,44 @@ button:hover {
 }
 .muestraInfo th,td{
     padding: 10px;
-  border: 1px solid #ddd;
+  border: 3px solid #ddd;
   text-align: left;
 }
 
+.botonInscripcionMaterias{
+    margin: 0 auto; /* Centrar el div horizontalmente */
+    margin-bottom: 20px;
+    padding: 5px; /* Espaciado interno */
+    border: 3px solid #000000; /* Borde del div */
+    border-radius: 10px; /* Bordes redondeados */
+    background-color: #ffb400; /* Color de fondo */
+    background: ffb400;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.botonMostrarCronograma{
+    margin: 0 auto; /* Centrar el div horizontalmente */
+    margin-bottom: 20px;
+    padding: 5px; /* Espaciado interno */
+    border: 3px solid #000000; /* Borde del div */
+    border-radius: 10px; /* Bordes redondeados */
+    background-color: #fff8f8; /* Color de fondo */
+    background: #ffb400;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.boton-eliminar {
+    margin: 0 5px; /* Separar del texto */
+    border: 1px solid #ccc; /* Bordes visibles */
+    margin-bottom: 20px;
+    padding: 5px 10px; /* Añadir espacio interior */
+    border-radius: 5px; /* Redondear las esquinas */
+    background-color: #f00; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    cursor: pointer; /* Indicar que es un botón */
+  }
+  
+  .boton-eliminar:hover {
+    background-color: #c00; /* Cambiar color al pasar el mouse */
+  }
+  
